@@ -38,14 +38,35 @@ public class Operators {
 //        f *= 2; // output 10 cause f is 5 and multiplying by 2 become 10 it like f = f * 2;
 //        f /= 2; // output 2.5 cause f is 5 and dividing by 2 become 2.5 it like f = f / 2;
 //        f %= 3; // output 2 cause f is 5 which cannot directly divide by 3 so it will divide 3 and 2 become reminder;
-        f &= 3;
+//        f &= 3;
 //        f |= 2;
 //        f ^= 3;
 //        f >>= 3;
 //        f <<= 3;
 
-        System.out.println(f);
+//        System.out.println(f);
 
+
+        // Comparison Operators
+
+        int z = 10;
+        int o = 5;
+        System.out.println(z == o);
+        System.out.println(z != o);
+        System.out.println(z < o);
+        System.out.println(z > o);
+        System.out.println(z >= o);
+        System.out.println(z <= o);
+
+
+        // Logical Operator
+
+        boolean isActive  = true;
+        boolean isAdmin = false;
+
+        System.out.println("Active Admin " + (isAdmin && !isActive)); // Returns true if both statements are true
+        System.out.println("Active Admin " + (isAdmin || isActive)); // Returns true if one of the statements is true
+        System.out.println("Active Admin " + (!isAdmin)); // Reverse the result, returns false if the result is true
 
     }
 }
