@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class VariableAndDataType {
     public static void main (String[] args) {
@@ -18,6 +19,6 @@ public class VariableAndDataType {
         String name = "Frieren"; // A String variable contains a collection of characters surrounded by double quotes ("")
 
         String[] cars = {"BMW", "Ford", "Ferrari"}; // Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
-        
+        System.out.println(Arrays.toString(cars));
     }
 }
