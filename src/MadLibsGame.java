@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class MadLibsGame {
     public static void main(String[] args) {
-        String[] infos = {"1. noun ", "2. verb ending in ing ", "3. noun ", "4. noun "};
+        String[] infos = {"1. noun ", "2. verb ending in ing ", "3. noun ", "4. noun ", "5. exclamation ", "6. verb ending in ing ", "7. noun-plural ", "8. noun ", "9. verb past-tense ", "10. noun ", "11. adjective ", "12. verb past-tense ", "13. noun ", "14. verb past-tense ", "15. noun ", "16. noun ", "17. noun ", "18. verb past-tense ", "19. noun - a body part ", "20. noun - a place ", "21. adjective - a color ", "22. noun ", "23. verb ending in ing ", "24. verb past-tense ", "25. noun ", "26. adverb ", "27. noun ", "28. nouns - plural "};
         List<String> userInput = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         for (String info : infos) {
