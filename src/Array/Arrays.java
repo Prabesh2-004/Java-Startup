@@ -37,7 +37,7 @@ public class Arrays {
 //            System.out.println();
 //        }
 
-        // for each loop
+        // enhance for loop
 
 //        for (int[] i : mult) {
 //            for (int j: i) {
