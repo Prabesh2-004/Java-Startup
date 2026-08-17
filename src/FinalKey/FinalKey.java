@@ -14,9 +14,9 @@ class Calc {
 }
 
 class AdvCalc extends Calc { // user can extend a class if we use final it cannot be extended in any class we are stoping from inheritance  extended
-    public void show() {
-        System.out.println("By Adam"); // after final, it cannot be used
-    }
+//    public void show() {
+//        System.out.println("By Adam"); // after final, it cannot be used
+//    }
 
 //    public void show() {
 //        System.out.println("By Adam"); // editor is taking credit even thought it is my method so to stop it we can use final key in method as well
