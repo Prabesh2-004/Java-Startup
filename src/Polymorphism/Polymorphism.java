@@ -9,7 +9,17 @@ class A {
 
 // Subclass B overrides show() method of class A
 class B extends A {
-    @Override
+
+////    public void showw() {
+////        System.out.println("in class B"); // without "Override" it will run even though method name is not same
+////    }
+
+
+////    @Override
+////    public void showw() {
+////        System.out.println("in class B"); // with "Override it will show an error of method name doesn't exist.
+////    }
+
     public void show() {
         System.out.println("in class B");
     }
